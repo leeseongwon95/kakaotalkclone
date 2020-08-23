@@ -2,13 +2,19 @@
   padding: 0px var(--horizontal-space);
 }
 
-.friends-screen__channel {
+.friends-screen__channel,
+.friends-screen__friend {
   margin-top: 25px;
   border-top: var(--main-border);
   padding-top: 15px;
 }
 
-.friends-screen__channel-header {
+.friends-screen__friend {
+  height: 80vh;
+}
+
+.friends-screen__channel-header,
+.friends-screen__friend-header {
   margin-bottom: 30px;
   display: flex;
   justify-content: space-between;
